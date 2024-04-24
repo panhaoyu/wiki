@@ -4,7 +4,7 @@
   "description": "Zotero 中文手册",
   "license": "MIT",
   "type": "module",
-  "packageManager": "pnpm@8.15.6",
+  "packageManager": "pnpm@8.15.7",
   "scripts": {
     "docs:dev": "vuepress dev src",
     "docs:clean-dev": "vuepress dev src --clean-cache",
@@ -18,10 +18,10 @@
   },
   "devDependencies": {
     "@vuepress/bundler-vite": "2.0.0-rc.9",
-    "@vuepress/plugin-baidu-analytics": "2.0.0-rc.24",
-    "@vuepress/plugin-feed": "2.0.0-rc.24",
+    "@vuepress/plugin-baidu-analytics": "2.0.0-rc.26",
+    "@vuepress/plugin-feed": "2.0.0-rc.26",
     "@vuepress/plugin-google-analytics": "2.0.0-rc.21",
-    "@vuepress/plugin-redirect": "2.0.0-rc.24",
+    "@vuepress/plugin-redirect": "2.0.0-rc.26",
     "husky": "^9.0.11",
     "lint-staged": "^15.2.2",
     "markdownlint-cli2": "^0.13.0",
@@ -29,8 +29,8 @@
     "prettier": "2.8.8",
     "vue": "^3.4.21",
     "vuepress": "2.0.0-rc.9",
-    "vuepress-plugin-search-pro": "2.0.0-rc.36",
-    "vuepress-theme-hope": "2.0.0-rc.36"
+    "vuepress-plugin-search-pro": "2.0.0-rc.37",
+    "vuepress-theme-hope": "2.0.0-rc.37"
   },
   "lint-staged": {
     "*.md": "prettier --write"
